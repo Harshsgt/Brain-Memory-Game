@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg-main: #464646;
+  --bg-card: #2d2727;
+  --border-color: #efc745;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+  height: 100vh;
+  background-color: var(--bg-main);
+}
