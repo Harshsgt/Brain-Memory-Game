@@ -17,3 +17,26 @@ body {
   height: 100vh;
   background-color: var(--bg-main);
 }
+h1 {
+  color: #fff;
+  font-family: "Lexend Deca Light";
+  font-size: 4rem;
+}
+span {
+  color: var(--border-color);
+}
+#card-section{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap:2rem;
+    
+}
+.card {
+  width: 10rem;
+  height: 10rem;
+  background-color: var(--bg-card);
+  background-size: contain;
+  border-radius: .6rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 2rem;
+}
