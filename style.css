@@ -43,3 +43,9 @@ span {
 .card_selected {
   border: 0.2rem solid var(--border-color);
 }
+
+.card_match{
+  border: .2rem;
+  border-radius: 2rem solid purple;
+
+}
